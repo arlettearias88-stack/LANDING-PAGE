@@ -1,0 +1,76 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header styling */
+header {
+    background: #111;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Buttons */
+.btn {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+}
+
+/* Product image */
+section img {
+    width: 200px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Testimonials */
+.testimonial {
+    margin-top: 20px;
+}
+
+.testimonial img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+/* CTA section */
+.cta {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

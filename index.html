@@ -2,45 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Landing Page</title>
+    <meta name="description" content="Smart Fitness Watch to improve your health and lifestyle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FitWatch - Smart Fitness Watch</title>
+
+    <!--CSS external-->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-    <header>
+<header>
     <h1>FitWatch</h1>
     <nav>
         <a href="#">Home</a>
-        <a href="#">Features</a>
+        <a href="#product">Product</a>
+        <a href="#features">Features</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
-<section>
+
+<section class="hero">
     <h2>Upgrade Your Lifestyle</h2>
-    <p>Track your fitness in real-time</p>
-    <a href="#">Buy Now</a>
+    <p>Track your health, fitness, and sleep in real-time.</p>
+    <a href="#" class="btn">Buy Now</a>
 </section>
 
-<section>
-    <h2>About</h2>
-    <p>Smart fitness watch description</p>
+<!-- Product card section -->
+<section id="product" class="product-section">
+    <h2>Our Product</h2>
+
+    <div class="product-card">
+        <img src="images/product.png" alt="Smart fitness watch">
+
+        <div class="product-info">
+            <h3>Smart Fitness Watch</h3>
+            <p>Track your health, monitor your heart rate, and improve your lifestyle.</p>
+
+            <p class="price">$49.99</p>
+
+            <p class="stock">In stock: 25 units</p>
+
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+    </div>
 </section>
 
-<section>
-    <h2>Features</h2>
+<section id="features">
+    <h2><center>Features</center></h2>
     <ul>
-        <li>Heart rate</li>
+        <li>Heart rate monitoring</li>
         <li>Sleep tracking</li>
+        <li>Water resistant</li>
+        <li>Long battery life</li>
     </ul>
 </section>
 
+<section id="reviews" class="reviews-section">
+    <h2>What Our Customers Say</h2>
 
-<section>
-    <h2>Testimonials</h2>
-    <p>"Great product!"</p>
+    <div class="reviews-container">
+
+        <div class="review-card">
+            <img src="images/user2.png" alt="Customer John">
+            <p>"Amazing product! It really helped me stay active."</p>
+            <h4>- John</h4>
+        </div>
+
+        <div class="review-card">
+            <img src="images/user.png" alt="Customer Maria">
+            <p>"Very accurate and stylish. I love it!"</p>
+            <h4>- Maria</h4>
+        </div>
+
+    </div>
 </section>
 
-<footer>
-    <p>© 2026 FitWatch. All rights reserved</p>
+<section class="cta">
+    <h2>Ready to Start?</h2>
+    <p>Buy now and improve your health today!</p>
+    <a href="#" class="btn">Get Yours Now</a>
+</section>
+
+<footer id="contact">
+    <p>© 2026 FitWatch. All rights reserved.</p>
 </footer>
+
 </body>
 </html>
